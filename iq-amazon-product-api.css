@@ -1,0 +1,324 @@
+.iq_shadow {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 0 39px rgba(0, 0, 0, .1) inset
+}
+
+.iq_foot_text {
+	font-size: .6em;
+	float: right
+}
+
+.iq_entire_border {
+	border: 1px solid;
+	padding-left: 10px
+}
+
+@media (max-width:600px) {
+	.iq_display_box {
+		float: none!important;
+		width: 99%!important;
+		margin-left: 0!important
+	}
+}
+
+.iq_display_box {
+	float: right;
+	width: 50%;
+	margin-left: 10px
+}
+
+.iq_saving_procent {
+	right: 0;
+	top: 0;
+	font-size: 20px;
+	position: absolute;
+	background-color: green;
+	color: #fff;
+	padding: 6px;
+	border-radius: 0 0 0 10px
+}
+
+.iq_shipping_pic {
+	max-height: 15px;
+	margin: -4px 7px 0 0!important;
+	display: inline!important;
+	border: none!important
+}
+
+.iq_product_title {
+	text-decoration: none!important;
+	border-bottom: hidden!important;
+}
+
+.iq_product_image {
+	width: 50%;
+	margin-right: 25%;
+	margin-left: 25%;
+	margin-bottom: 5px
+}
+
+.iq_product_image_box {
+	float: left;
+	width: auto;
+	height: auto;
+	max-width: 15%;
+	max-height: 250px
+}
+
+.iq_admin_input {
+	float: left
+}
+
+.iq_feature_list {
+	float: left;
+	width: 100%;
+	font-size: .9em;
+	padding-left: 16px;
+}
+
+.iq_price_field {
+	margin-bottom: 0!important
+}
+
+.iq_price_field_center {
+	margin-top: 4px!important;
+	display: inline-block
+}
+
+.iq_price_field_box {
+	float: right;
+	margin-right: 20px!important;
+	margin-top: 8px!important
+}
+
+.iq_price_amount_saved {
+	margin-top: 12px!important;
+	font-size: .8em
+}
+
+.iq_price_amount_saved_box {
+	float: right;
+	margin-right: 20px!important
+}
+
+.iq_number_rating_box {
+	float: right;
+	margin-top: 6.5px
+}
+
+.iq_feature_div {
+	overflow: hidden;
+	margin-bottom: 10px
+}
+
+.iq_around {
+	overflow: hidden;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	position: relative
+}
+
+.iq_title_around {
+	margin-top: 0!important
+}
+
+.iq_amazon_button_individual {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: italic;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	float: right;
+	text-decoration: none!important
+}
+
+.iq_amazon_button_style {
+	background-color: #FF9900;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	text-indent: 0;
+	display: inline-block;
+	color: #fff!important;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	height: 25px;
+	line-height: 25px;
+	width: 180px;
+	text-decoration: none;
+	text-align: center;
+	padding: 2px;
+	float: right;
+	-webkit-box-sizing: initial!important;
+	-moz-box-sizing: initial!important;
+	box-sizing: initial!important;
+	-webkit-border-radius: 3px;
+	border-radius: 3px
+}
+
+.iq_ebay_button_style {
+	background-color: #6BB9F0;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	text-indent: 0;
+	display: inline-block;
+	color: #fff!important;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	height: 25px;
+	line-height: 25px;
+	width: 180px;
+	text-decoration: none;
+	text-align: center;
+	padding: 2px;
+	float: right;
+	-webkit-box-sizing: initial!important;
+	-moz-box-sizing: initial!important;
+	box-sizing: initial!important;
+	-webkit-border-radius: 3px;
+	border-radius: 3px
+}
+
+.iq_rating_wrapper,
+.iq_rating_wrapper_center {
+	width: 90px;
+	overflow: hidden;
+	position: relative;
+	height: 18px
+}
+
+.iq_amazon_button_style:hover {
+	background-color: #F89406!important
+}
+
+.iq_ebay_button_style:hover {
+	background-color: #59ABE3!important
+}
+
+.iq_amazon_button_style:active {
+	position: relative;
+	top: 1px
+}
+
+.iq_rating_wrapper {
+	margin-top: 6px;
+	float: right;
+	margin-left: 20px
+}
+
+.iq_rating_wrapper_center {
+	margin: auto
+}
+
+.iq_rating {
+	height: 36px;
+	width: 360px;
+	position: absolute;
+	max-width: none!important
+}
+
+.iq_prime_wrapper,
+.iq_prime_wrapper_center {
+	position: relative;
+	width: 63px;
+	overflow: hidden;
+	height: 18px
+}
+
+.iq_prime_wrapper {
+	margin-top: 9px;
+	float: right;
+	margin-left: 20px
+}
+
+.iq_prime_wrapper_center {
+	margin: 9px auto 3px
+}
+
+.iq_prime_logo {
+	left: 0;
+	top: -20px;
+	height: 36px;
+	width: 360px;
+	position: absolute;
+	max-width: none!important;
+	margin: auto!important;
+	border: none!important
+}
+
+.iq_custom_info {
+	width: 60%;
+	display: inline-block;
+	margin-bottom: 14px;
+	position: relative;
+	float: right
+}
+
+.iq-or {
+	margin-right: 20px;
+	float: right;
+	margin-top: 6px;
+}
+
+.iq_custom_info_center {
+	width: 50%;
+	margin: auto auto 10px;
+	text-align: center
+}
+
+.iq_sidebar_button {
+	width: 100%;
+	padding-right: 0!important;
+	padding-left: 0!important
+}
+
+.iq_rating_link {
+	text-decoration: none!important
+}
+
+@media (max-width: 768px) {
+	.iq_custom_info {
+		width: 100%;
+	}
+
+	.iq_price_field_box {
+		margin-right: 14px!important;
+	}
+
+
+	.iq_price_amount_saved_box {
+		margin-right: 14px!important
+	}
+
+	.iq-or {
+		margin-right: 14px;
+	}
+}
+
+@media (max-width: 400px) {
+	.iq_custom_info {
+		width: 100%;
+	}
+
+	.iq_amazon_button_style {
+		width: 140px;
+	}
+
+	.iq_ebay_button_style {
+		width: 140px;
+	}
+}
+

@@ -1,0 +1,19 @@
+{
+    "name": "iqdevelopmentde/iq_amazon_product_api",
+    "type": "library",
+    "description": "Wordpress plugin using Exeu apai-io library.",
+    "keywords": ["Wordpress plugin", "Amazon", "ECS", "Product Advertising", "REST", "Products"],
+    "homepage": "https://github.com/iqdevelopmentde/iq_amazon_product_api",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Frederik Witte",
+            "email": "witte@iq-dev.com",
+            "role": "Developer"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "exeu/apai-io": "~2.0"
+    }
+}
